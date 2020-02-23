@@ -8,7 +8,10 @@
 
 .error {
     font-size: 2rem;
-    border: 2px solid rgb(150, 19, 19);
-    color: rgb(150, 19, 19);
-    padding: 2rem;
+    font-family: 'Bungee Inline';
+    border: 5px solid rgb(255, 64, 64);
+    color: rgb(255, 64, 64);
+    padding: 5rem;
+    -webkit-animation: blink-1 5s infinite both;
+            animation: blink-1 5s infinite both;
 }
