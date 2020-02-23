@@ -1,0 +1,49 @@
+.card {
+    width: 280px;
+    height: 400px;
+    background-color: rgb(204, 230, 255);
+    border-radius: 15px;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.title {
+    background-color: rgb(112, 22, 22);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.picture {
+    background-color: rgb(117, 74, 74);
+}
+
+.rating {
+    background-color: rgb(112, 22, 22);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.rating span,
+.year span {
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.year {
+    background-color: rgb(112, 22, 22);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
