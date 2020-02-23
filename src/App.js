@@ -33,7 +33,7 @@ export default class App extends Component {
 
     return (
       <div className="container">
-        <h1>Movies App</h1>
+        <h1>Blockbuster</h1>
         <div className="wrapper">
           {
             this.state.movies.map((movie, index) => {

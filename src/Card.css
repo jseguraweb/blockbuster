@@ -1,17 +1,26 @@
 .card {
-    width: 280px;
-    height: 400px;
-    background-color: rgb(204, 230, 255);
-    border-radius: 15px;
+    width: 250px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid #141E30;
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-gap: 1rem 0;
     overflow: hidden;
     margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Righteous', sans-serif;
+    transform: scale(1);
+    transition-duration: .3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .title {
-    background-color: rgb(112, 22, 22);
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,16 +30,24 @@
 }
 
 .picture {
-    background-color: rgb(117, 74, 74);
+    background-image: url("https://yts.mx/assets/images/movies/american_pie_presents_band_camp_2005/medium-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .rating {
-    background-color: rgb(112, 22, 22);
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .rating span,
@@ -40,10 +57,8 @@
 }
 
 .year {
-    background-color: rgb(112, 22, 22);
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
