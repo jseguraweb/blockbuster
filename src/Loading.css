@@ -7,7 +7,7 @@
 }
 
 .loading {
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: 'Bungee Inline';
     color: rgb(252, 224, 66);
     -webkit-animation: blink-1 2s infinite both;
@@ -46,5 +46,17 @@
   25%,
   75% {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .loading {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .loading {
+    font-size: 5rem;
   }
 }

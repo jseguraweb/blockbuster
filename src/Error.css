@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 .error {
@@ -11,7 +12,23 @@
     font-family: 'Bungee Inline';
     border: 5px solid rgb(255, 64, 64);
     color: rgb(255, 64, 64);
-    padding: 5rem;
+    padding: 2rem;
     -webkit-animation: blink-1 5s infinite both;
             animation: blink-1 5s infinite both;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .container-error {
+        padding: 5rem;
+    }
+    .error {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .error {
+        font-size: 6rem;
+    }
 }
