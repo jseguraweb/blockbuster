@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blockbuster/static/css/main.003a8ec6.chunk.css",
+    "main.js": "/blockbuster/static/js/main.3459d1b2.chunk.js",
+    "main.js.map": "/blockbuster/static/js/main.3459d1b2.chunk.js.map",
+    "runtime-main.js": "/blockbuster/static/js/runtime-main.1f959007.js",
+    "runtime-main.js.map": "/blockbuster/static/js/runtime-main.1f959007.js.map",
+    "static/js/2.0c1a8041.chunk.js": "/blockbuster/static/js/2.0c1a8041.chunk.js",
+    "static/js/2.0c1a8041.chunk.js.map": "/blockbuster/static/js/2.0c1a8041.chunk.js.map",
+    "index.html": "/blockbuster/index.html",
+    "precache-manifest.696a648d836bedc9f69bce844db7ba3b.js": "/blockbuster/precache-manifest.696a648d836bedc9f69bce844db7ba3b.js",
+    "service-worker.js": "/blockbuster/service-worker.js",
+    "static/css/main.003a8ec6.chunk.css.map": "/blockbuster/static/css/main.003a8ec6.chunk.css.map",
+    "static/js/2.0c1a8041.chunk.js.LICENSE.txt": "/blockbuster/static/js/2.0c1a8041.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f959007.js",
+    "static/js/2.0c1a8041.chunk.js",
+    "static/css/main.003a8ec6.chunk.css",
+    "static/js/main.3459d1b2.chunk.js"
+  ]
+}
