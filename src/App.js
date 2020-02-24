@@ -18,7 +18,7 @@ export default class App extends Component {
       const serverData = await fetch('https://yts.mx/api/v2/list_movies.json');
       const response = await serverData.json();
       this.setState({ movies: response.data.movies });
-      // console.log(this.state.movies);
+      console.log(this.state.movies);
     } catch (err) {
       this.setState({ displayError: 'ERROR: Something seems to be wrong' })
     }
@@ -54,7 +54,7 @@ export default class App extends Component {
         <div className="wrapper">
           {
             filteredMovies.map((movie, index) => {
-              return <Card key={index} title={movie.title} image={movie.medium_cover_image} rating={movie.rating} year={movie.year} />
+              return <Card key={index} title={movie.title} image={movie.medium_cover_image} rating={movie.rating} year={movie.year} description={movie.summary} />
             })
           }
         </div>

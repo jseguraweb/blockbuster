@@ -10,6 +10,7 @@ const Card = props => {
                 <p className="rating">Rating: <span>{props.rating}</span></p>
                 <p className="year">Year: <span>{props.year}</span></p>
             </div>
+            <div className="description">{props.description}</div>
         </div>
     );
 }
