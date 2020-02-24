@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd51c125c322f171c132a2f2666921c4",
+    "revision": "bedf282af30acaad2db098b5f262c918",
     "url": "/blockbuster/public/index.html"
   },
   {
-    "revision": "760541658d0797f089d2",
+    "revision": "519674f8c51e1563eb32",
     "url": "/blockbuster/public/static/css/main.c179e2ba.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blockbuster/public/static/js/2.0c1a8041.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "760541658d0797f089d2",
-    "url": "/blockbuster/public/static/js/main.58f8a61e.chunk.js"
+    "revision": "519674f8c51e1563eb32",
+    "url": "/blockbuster/public/static/js/main.152bf9fc.chunk.js"
   },
   {
     "revision": "492a4125780574dc57b1",
