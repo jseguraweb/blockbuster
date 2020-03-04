@@ -13,7 +13,11 @@ export default class App extends Component {
     search: ''
   }
 
-  componentDidMount = async () => {
+  componentDidMount() {
+    this.fetchData()
+  }
+
+  fetchData = async () => {
     try {
       const serverData = await fetch('https://yts.mx/api/v2/list_movies.json');
       const response = await serverData.json();
